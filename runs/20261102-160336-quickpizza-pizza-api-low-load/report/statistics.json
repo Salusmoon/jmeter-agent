@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 214,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 284.60747663551405,
+    "medianResTime" : 248.0,
+    "minResTime" : 158.0,
+    "maxResTime" : 1117.0,
+    "pct1ResTime" : 439.5,
+    "pct2ResTime" : 533.5,
+    "pct3ResTime" : 963.4999999999984,
+    "throughput" : 3.6581821911485664,
+    "receivedKBytesPerSec" : 4.158624773500401,
+    "sentKBytesPerSec" : 1.321804112036103
+  },
+  "POST /api/pizza" : {
+    "transaction" : "POST /api/pizza",
+    "sampleCount" : 214,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 284.60747663551405,
+    "medianResTime" : 248.0,
+    "minResTime" : 158.0,
+    "maxResTime" : 1117.0,
+    "pct1ResTime" : 439.5,
+    "pct2ResTime" : 533.5,
+    "pct3ResTime" : 963.4999999999984,
+    "throughput" : 3.6581821911485664,
+    "receivedKBytesPerSec" : 4.158624773500401,
+    "sentKBytesPerSec" : 1.321804112036103
+  }
+}

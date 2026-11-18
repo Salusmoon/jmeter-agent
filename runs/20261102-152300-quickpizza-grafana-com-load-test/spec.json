@@ -1,0 +1,36 @@
+{
+  "name": "quickpizza.grafana.com load test",
+  "url": null,
+  "method": "GET",
+  "requests": [
+    {
+      "url": "https://quickpizza.grafana.com/api/pizza",
+      "method": "POST",
+      "label": "POST /api/pizza",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "token abcdef0123456789"
+      },
+      "body": "{\"maxCaloriesPerSlice\":500,\"mustBeVegetarian\":false,\"excludedIngredients\":[\"pepperoni\"],\"excludedTools\":[\"knife\"],\"maxNumberOfToppings\":6,\"minNumberOfToppings\":2}",
+      "expected_status": null
+    }
+  ],
+  "users": 1,
+  "ramp_up": 0,
+  "duration": 30,
+  "loops": null,
+  "think_time_ms": 1000,
+  "target_rps": null,
+  "timeout_ms": 30000,
+  "headers": {},
+  "expected_status": [
+    200
+  ],
+  "thresholds": {
+    "max_error_pct": 1.0,
+    "p95_ms": 1500.0,
+    "p99_ms": null,
+    "avg_ms": null,
+    "min_rps": null
+  }
+}

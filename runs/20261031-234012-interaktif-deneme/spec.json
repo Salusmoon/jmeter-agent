@@ -1,0 +1,46 @@
+{
+  "name": "interaktif deneme",
+  "url": null,
+  "method": "GET",
+  "requests": [
+    {
+      "url": "http://127.0.0.1:18080/",
+      "method": "GET",
+      "label": "home",
+      "headers": {},
+      "body": null,
+      "expected_status": null
+    },
+    {
+      "url": "http://127.0.0.1:18080/x",
+      "method": "POST",
+      "label": null,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\"a\":1}",
+      "expected_status": null
+    }
+  ],
+  "users": 3,
+  "ramp_up": 1,
+  "duration": 5,
+  "loops": null,
+  "think_time_ms": 0,
+  "target_rps": null,
+  "timeout_ms": 30000,
+  "headers": {
+    "Authorization": "Bearer test"
+  },
+  "expected_status": [
+    200,
+    501
+  ],
+  "thresholds": {
+    "max_error_pct": 1.0,
+    "p95_ms": 500.0,
+    "p99_ms": null,
+    "avg_ms": null,
+    "min_rps": null
+  }
+}

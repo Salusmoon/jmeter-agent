@@ -1,0 +1,39 @@
+{
+  "name": "local smoke",
+  "url": null,
+  "method": "GET",
+  "requests": [
+    {
+      "url": "http://127.0.0.1:18080/",
+      "method": "GET",
+      "label": null,
+      "headers": {},
+      "body": null,
+      "expected_status": null
+    },
+    {
+      "url": "http://127.0.0.1:18080/notfound?x=1",
+      "method": "GET",
+      "label": null,
+      "headers": {},
+      "body": null,
+      "expected_status": null
+    }
+  ],
+  "users": 5,
+  "ramp_up": 2,
+  "duration": 15,
+  "loops": null,
+  "think_time_ms": 100,
+  "target_rps": null,
+  "timeout_ms": 30000,
+  "headers": {},
+  "expected_status": null,
+  "thresholds": {
+    "max_error_pct": 1.0,
+    "p95_ms": 500.0,
+    "p99_ms": null,
+    "avg_ms": null,
+    "min_rps": null
+  }
+}

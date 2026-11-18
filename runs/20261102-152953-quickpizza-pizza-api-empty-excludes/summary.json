@@ -1,0 +1,59 @@
+{
+  "name": "QuickPizza pizza API - empty excludes",
+  "verdict": "PASS",
+  "load": {
+    "users": 5,
+    "ramp_up_s": 10,
+    "duration_s": 60,
+    "loops": null
+  },
+  "total": {
+    "samples": 214,
+    "errors": 0,
+    "error_pct": 0.0,
+    "avg_ms": 294.8,
+    "min_ms": 150.0,
+    "max_ms": 1070.0,
+    "p50_ms": 252.0,
+    "p90_ms": 465.0,
+    "p95_ms": 561.8,
+    "p99_ms": 728.5,
+    "rps": 3.62,
+    "received_kb_s": 4.1
+  },
+  "threshold_checks": [
+    {
+      "check": "max_error_pct",
+      "limit": 1.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "check": "p95_ms",
+      "limit": 1500.0,
+      "actual": 561.8,
+      "passed": true
+    }
+  ],
+  "per_request": {
+    "POST /api/pizza": {
+      "samples": 214,
+      "errors": 0,
+      "error_pct": 0.0,
+      "avg_ms": 294.8,
+      "min_ms": 150.0,
+      "max_ms": 1070.0,
+      "p50_ms": 252.0,
+      "p90_ms": 465.0,
+      "p95_ms": 561.8,
+      "p99_ms": 728.5,
+      "rps": 3.62,
+      "received_kb_s": 4.1
+    }
+  },
+  "run_id": "20261102-152953-quickpizza-pizza-api-empty-excludes",
+  "status": "completed",
+  "elapsed_s": 63.5,
+  "run_dir": "C:\\Users\\berke\\Desktop\\jmeter agent\\runs\\20261102-152953-quickpizza-pizza-api-empty-excludes",
+  "report_html": "C:\\Users\\berke\\Desktop\\jmeter agent\\runs\\20261102-152953-quickpizza-pizza-api-empty-excludes\\report\\index.html"
+}

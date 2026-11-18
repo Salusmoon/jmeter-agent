@@ -1,0 +1,59 @@
+{
+  "name": "api smoke",
+  "verdict": "PASS",
+  "load": {
+    "users": 3,
+    "ramp_up_s": 1,
+    "duration_s": 8,
+    "loops": null
+  },
+  "total": {
+    "samples": 492,
+    "errors": 0,
+    "error_pct": 0.0,
+    "avg_ms": 46.4,
+    "min_ms": 36.0,
+    "max_ms": 84.0,
+    "p50_ms": 45.5,
+    "p90_ms": 50.0,
+    "p95_ms": 54.0,
+    "p99_ms": 71.3,
+    "rps": 61.73,
+    "received_kb_s": 1666.21
+  },
+  "threshold_checks": [
+    {
+      "check": "max_error_pct",
+      "limit": 1.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "check": "p95_ms",
+      "limit": 500.0,
+      "actual": 54.0,
+      "passed": true
+    }
+  ],
+  "per_request": {
+    "01 GET 127.0.0.1/": {
+      "samples": 492,
+      "errors": 0,
+      "error_pct": 0.0,
+      "avg_ms": 46.4,
+      "min_ms": 36.0,
+      "max_ms": 84.0,
+      "p50_ms": 45.5,
+      "p90_ms": 50.0,
+      "p95_ms": 54.0,
+      "p99_ms": 71.3,
+      "rps": 61.73,
+      "received_kb_s": 1666.21
+    }
+  },
+  "run_id": "20261031-233144-api-smoke",
+  "status": "completed",
+  "elapsed_s": 11.5,
+  "run_dir": "C:\\Users\\berke\\Desktop\\jmeter agent\\runs\\20261031-233144-api-smoke",
+  "report_html": "C:\\Users\\berke\\Desktop\\jmeter agent\\runs\\20261031-233144-api-smoke\\report\\index.html"
+}

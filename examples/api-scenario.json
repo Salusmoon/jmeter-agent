@@ -1,0 +1,20 @@
+{
+  "name": "Orders API smoke load",
+  "users": 25,
+  "ramp_up": 15,
+  "duration": 120,
+  "think_time_ms": 500,
+  "headers": { "Accept": "application/json" },
+  "expected_status": [200, 201],
+  "requests": [
+    { "label": "list products", "url": "https://staging.example.com/api/products?page=1" },
+    {
+      "label": "create order",
+      "url": "https://staging.example.com/api/orders",
+      "method": "POST",
+      "headers": { "Content-Type": "application/json" },
+      "body": "{\"productId\": 42, \"qty\": 1}"
+    }
+  ],
+  "thresholds": { "max_error_pct": 1, "p95_ms": 800, "min_rps": 20 }
+}

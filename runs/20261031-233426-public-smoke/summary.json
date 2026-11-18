@@ -1,0 +1,81 @@
+{
+  "name": "public smoke",
+  "verdict": "PASS",
+  "load": {
+    "users": 2,
+    "ramp_up_s": 2,
+    "duration_s": 10,
+    "loops": null
+  },
+  "total": {
+    "samples": 12,
+    "errors": 0,
+    "error_pct": 0.0,
+    "avg_ms": 462.7,
+    "min_ms": 148.0,
+    "max_ms": 1083.0,
+    "p50_ms": 398.5,
+    "p90_ms": 1037.7,
+    "p95_ms": 1083.0,
+    "p99_ms": 1083.0,
+    "rps": 1.45,
+    "received_kb_s": 9.03
+  },
+  "threshold_checks": [
+    {
+      "check": "max_error_pct",
+      "limit": 1.0,
+      "actual": 0.0,
+      "passed": true
+    }
+  ],
+  "per_request": {
+    "01 GET quickpizza.grafana.com/": {
+      "samples": 4,
+      "errors": 0,
+      "error_pct": 0.0,
+      "avg_ms": 463.2,
+      "min_ms": 148.0,
+      "max_ms": 1083.0,
+      "p50_ms": 311.0,
+      "p90_ms": 1083.0,
+      "p95_ms": 1083.0,
+      "p99_ms": 1083.0,
+      "rps": 0.68,
+      "received_kb_s": 2.3
+    },
+    "02 GET blazedemo.com/reserve.php": {
+      "samples": 4,
+      "errors": 0,
+      "error_pct": 0.0,
+      "avg_ms": 553.5,
+      "min_ms": 266.0,
+      "max_ms": 932.0,
+      "p50_ms": 508.0,
+      "p90_ms": 932.0,
+      "p95_ms": 932.0,
+      "p99_ms": 932.0,
+      "rps": 0.8,
+      "received_kb_s": 5.63
+    },
+    "03 GET dummyjson.com/products": {
+      "samples": 4,
+      "errors": 0,
+      "error_pct": 0.0,
+      "avg_ms": 371.2,
+      "min_ms": 164.0,
+      "max_ms": 580.0,
+      "p50_ms": 370.5,
+      "p90_ms": 580.0,
+      "p95_ms": 580.0,
+      "p99_ms": 580.0,
+      "rps": 0.94,
+      "received_kb_s": 7.78
+    }
+  },
+  "run_id": "20261031-233426-public-smoke",
+  "status": "completed",
+  "elapsed_s": 13.0,
+  "run_dir": "C:\\Users\\berke\\Desktop\\jmeter agent\\runs\\20261031-233426-public-smoke",
+  "report_html": "C:\\Users\\berke\\Desktop\\jmeter agent\\runs\\20261031-233426-public-smoke\\report\\index.html"
+}

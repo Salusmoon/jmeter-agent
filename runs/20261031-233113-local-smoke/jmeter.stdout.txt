@@ -1,0 +1,14 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using C:\Users\berke\Desktop\jmeter agent\runs\20261031-233113-local-smoke\plan.jmx
+Starting standalone test @ 2026 Oct 31 23:31:15 TRT (1793478675104)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +    517 in 00:00:15 =   34.8/s Avg:    27 Min:     1 Max:    99 Err:   258 (49.90%) Active: 5 Started: 5 Finished: 0
+summary +      9 in 00:00:00 =   73.2/s Avg:    22 Min:     2 Max:    50 Err:     5 (55.56%) Active: 0 Started: 5 Finished: 5
+summary =    526 in 00:00:15 =   35.1/s Avg:    27 Min:     1 Max:    99 Err:   263 (50.00%)
+Tidying up ...    @ 2026 Oct 31 23:31:30 TRT (1793478690212)
+... end of run
+

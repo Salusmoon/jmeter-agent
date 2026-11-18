@@ -1,0 +1,362 @@
+2026-11-03 03:48:52,154 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-03 03:48:52,172 INFO o.a.j.JMeter: Loading user properties from: C:\Users\berke\Desktop\jmeter agent\apache-jmeter-5.6.3\bin\user.properties
+2026-11-03 03:48:52,173 INFO o.a.j.JMeter: Loading system properties from: C:\Users\berke\Desktop\jmeter agent\apache-jmeter-5.6.3\bin\system.properties
+2026-11-03 03:48:52,173 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.output_format=csv
+2026-11-03 03:48:52,173 INFO o.a.j.JMeter: Setting JMeter property: jmeter.reportgenerator.report_title=QuickPizza pizza API performance test
+2026-11-03 03:48:52,178 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-03 03:48:52,178 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-03 03:48:52,178 INFO o.a.j.JMeter: java.version=20.0.1
+2026-11-03 03:48:52,178 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-11-03 03:48:52,179 INFO o.a.j.JMeter: os.name=Windows 10
+2026-11-03 03:48:52,179 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-03 03:48:52,179 INFO o.a.j.JMeter: os.version=10.0
+2026-11-03 03:48:52,179 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-11-03 03:48:52,179 INFO o.a.j.JMeter: java.awt.headless=true
+2026-11-03 03:48:52,179 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-03 03:48:52,179 INFO o.a.j.JMeter: Available Processors =12
+2026-11-03 03:48:52,188 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-03 03:48:52,189 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-03 03:48:52,189 INFO o.a.j.JMeter: JMeterHome=C:\Users\berke\Desktop\jmeter agent\apache-jmeter-5.6.3
+2026-11-03 03:48:52,189 INFO o.a.j.JMeter: user.dir  =C:\Users\berke\Desktop\jmeter agent
+2026-11-03 03:48:52,189 INFO o.a.j.JMeter: PWD       =C:\Users\berke\Desktop\jmeter agent
+2026-11-03 03:48:52,190 INFO o.a.j.JMeter: IP: 192.168.1.112 Name: DESKTOP-DC090DM FullName: DESKTOP-DC090DM
+2026-11-03 03:48:52,203 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\berke\Desktop\jmeter agent\runs\20261103-034850-quickpizza-pizza-api-performance-test\report'
+2026-11-03 03:48:52,203 INFO o.a.j.s.FileServer: Default base='C:\Users\berke\Desktop\jmeter agent'
+2026-11-03 03:48:52,203 INFO o.a.j.s.FileServer: Set new base='C:\Users\berke\Desktop\jmeter agent\runs\20261103-034850-quickpizza-pizza-api-performance-test'
+2026-11-03 03:48:52,354 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-03 03:48:52,380 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-03 03:48:52,383 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-03 03:48:52,386 INFO o.a.j.s.SaveService: Loading file: C:\Users\berke\Desktop\jmeter agent\runs\20261103-034850-quickpizza-pizza-api-performance-test\plan.jmx
+2026-11-03 03:48:52,417 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2026-11-03 03:48:52,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-03 03:48:52,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-03 03:48:52,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-03 03:48:52,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-03 03:48:52,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-03 03:48:52,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-03 03:48:52,445 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-11-03 03:48:52,454 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-11-03 03:48:52,454 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: C:\Users\berke\Desktop\jmeter agent\runs\20261103-034850-quickpizza-pizza-api-performance-test\results.jtl
+2026-11-03 03:48:52,454 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\berke\Desktop\jmeter agent\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2026-11-03 03:48:52,455 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-11-03 03:48:52,457 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-11-03 03:48:52,459 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-11-03 03:48:52,459 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-11-03 03:48:52,459 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-11-03 03:48:52,459 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-11-03 03:48:52,459 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-11-03 03:48:52,459 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-11-03 03:48:52,460 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-11-03 03:48:52,463 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-11-03 03:48:52,463 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-03 03:48:52,463 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-11-03 03:48:52,463 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-11-03 03:48:52,463 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-11-03 03:48:52,463 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-11-03 03:48:52,464 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-03 03:48:52,464 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-03 03:48:52,464 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-03 03:48:52,464 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-03 03:48:52,464 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-11-03 03:48:52,464 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-11-03 03:48:52,464 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-11-03 03:48:52,465 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-11-03 03:48:52,465 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-11-03 03:48:52,465 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-11-03 03:48:52,475 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-03 03:48:52,475 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-03 03:48:52,475 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-03 03:48:52,478 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-11-03 03:48:52,478 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-11-03 03:48:52,564 INFO o.a.j.JMeter: Running test (1793666932564)
+2026-11-03 03:48:52,578 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Virtual users
+2026-11-03 03:48:52,579 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Virtual users.
+2026-11-03 03:48:52,579 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-03 03:48:52,579 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=10 delayedStart=false
+2026-11-03 03:48:52,584 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-03 03:48:52,584 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-03 03:48:52,584 INFO o.a.j.t.JMeterThread: Thread started: Virtual users 1-1
+2026-11-03 03:48:53,612 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-DC090DM
+2026-11-03 03:48:53,616 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-11-03 03:48:53,617 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-11-03 03:48:53,617 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-11-03 03:48:53,617 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-11-03 03:48:53,617 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-11-03 03:48:53,840 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-11-03 03:48:53,847 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-11-03 03:48:53,847 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-11-03 03:48:54,053 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-11-03 03:48:54,056 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-11-03 03:48:54,057 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-11-03 03:48:54,582 INFO o.a.j.t.JMeterThread: Thread started: Virtual users 1-2
+2026-11-03 03:48:54,767 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:48:55,941 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:48:56,073 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:48:56,580 INFO o.a.j.t.JMeterThread: Thread started: Virtual users 1-3
+2026-11-03 03:48:57,229 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:48:57,502 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:48:58,176 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:48:58,494 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:48:58,581 INFO o.a.j.t.JMeterThread: Thread started: Virtual users 1-4
+2026-11-03 03:48:58,749 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:48:59,404 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:48:59,757 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:48:59,966 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:00,113 INFO o.a.j.r.Summariser: summary +     12 in 00:00:08 =    1.6/s Avg:   398 Min:   166 Max:  1114 Err:     0 (0.00%) Active: 4 Started: 4 Finished: 0
+2026-11-03 03:49:00,113 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:00,580 INFO o.a.j.t.JMeterThread: Thread started: Virtual users 1-5
+2026-11-03 03:49:00,658 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:01,189 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:01,298 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:01,536 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:01,945 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:02,184 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:02,396 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:02,552 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:02,922 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:03,208 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:03,445 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:03,647 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:03,735 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:04,109 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:04,490 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:04,742 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:04,979 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:05,377 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:05,673 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:05,804 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:06,248 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:06,272 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:06,620 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:06,930 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:06,990 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:07,489 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:07,502 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:07,894 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:08,147 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:08,238 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:08,748 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:08,868 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:09,167 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:09,391 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:09,487 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:09,965 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:10,186 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:10,423 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:10,743 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:10,918 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:11,208 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:11,482 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:11,736 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:12,053 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:12,147 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:12,549 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:12,848 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:13,166 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:13,438 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:13,529 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:13,806 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:14,092 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:14,506 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:14,633 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:14,792 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:15,010 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:15,661 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:15,742 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:15,964 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:16,182 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:16,313 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:16,899 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:16,949 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:17,247 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:17,435 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:17,564 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:18,197 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:18,394 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:18,767 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:18,877 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:18,887 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:19,382 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:19,612 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:20,106 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:20,109 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:20,379 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:20,713 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:20,818 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:21,310 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:21,363 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:21,754 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:22,075 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:22,202 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:22,678 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:22,736 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:23,260 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:23,358 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:23,479 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:23,945 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:24,096 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:24,482 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:24,691 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:24,728 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:25,137 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:25,527 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:25,655 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:25,893 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:25,914 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:26,401 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:26,781 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:26,860 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:27,078 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:27,109 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:27,768 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:28,074 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:28,088 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:28,263 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:28,298 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:29,130 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:29,375 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:29,491 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:29,515 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:29,641 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:30,422 INFO o.a.j.r.Summariser: summary +    114 in 00:00:30 =    3.8/s Avg:   295 Min:   169 Max:   631 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2026-11-03 03:49:30,422 INFO o.a.j.r.Summariser: summary =    126 in 00:00:38 =    3.3/s Avg:   304 Min:   166 Max:  1114 Err:     0 (0.00%)
+2026-11-03 03:49:30,422 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:30,619 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:30,721 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:30,749 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:30,860 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:31,803 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:31,879 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:31,907 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:32,099 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:32,137 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:33,010 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:33,111 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:33,352 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:33,380 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:33,471 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:34,218 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:34,348 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:34,581 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:34,677 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:34,801 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:35,395 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:35,523 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:35,777 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:35,923 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:36,135 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:36,691 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:36,741 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:36,965 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:37,195 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:37,338 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:37,948 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:37,962 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:38,211 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:38,513 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:38,604 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:39,245 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:39,306 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:39,537 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:39,898 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:39,947 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:40,502 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:40,558 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:40,750 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:41,149 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:41,165 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:41,706 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:41,771 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:41,982 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:42,372 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:42,434 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:42,983 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:43,201 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:43,309 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:43,599 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:43,754 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:44,259 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:44,436 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:44,524 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:44,858 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:45,186 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:45,444 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:45,749 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:45,754 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:46,197 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:46,379 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:46,940 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:46,975 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:47,013 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:47,416 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:47,629 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:48,201 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:48,249 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:48,290 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:48,615 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:48,963 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:49,445 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:49,482 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:49,566 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:49,804 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:50,167 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:50,679 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:50,699 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:50,837 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:51,130 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:51,398 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:51,978 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:51,978 INFO o.a.j.t.JMeterThread: Thread finished: Virtual users 1-4
+2026-11-03 03:49:52,026 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:52,026 INFO o.a.j.t.JMeterThread: Thread finished: Virtual users 1-1
+2026-11-03 03:49:52,172 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:52,172 INFO o.a.j.t.JMeterThread: Thread finished: Virtual users 1-3
+2026-11-03 03:49:52,581 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager Cookies superseded by Cookies
+2026-11-03 03:49:52,581 INFO o.a.j.t.JMeterThread: Thread finished: Virtual users 1-5
+2026-11-03 03:49:52,738 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Virtual users 1-2
+2026-11-03 03:49:52,739 INFO o.a.j.t.JMeterThread: Thread finished: Virtual users 1-2
+2026-11-03 03:49:52,739 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-03 03:49:52,740 INFO o.a.j.r.Summariser: summary +     89 in 00:00:22 =    4.0/s Avg:   263 Min:   173 Max:   526 Err:     0 (0.00%) Active: 0 Started: 5 Finished: 5
+2026-11-03 03:49:52,740 INFO o.a.j.r.Summariser: summary =    215 in 00:01:00 =    3.6/s Avg:   287 Min:   166 Max:  1114 Err:     0 (0.00%)
+2026-11-03 03:49:52,740 INFO o.a.j.JMeter: Generating Dashboard
+2026-11-03 03:49:52,740 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-11-03 03:49:52,750 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-11-03 03:49:52,811 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-11-03 03:49:52,811 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-11-03 03:49:52,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-11-03 03:49:52,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-11-03 03:49:52,816 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-11-03 03:49:52,818 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-11-03 03:49:52,818 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-11-03 03:49:52,818 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-11-03 03:49:52,829 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-11-03 03:49:52,829 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-11-03 03:49:52,829 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-11-03 03:49:52,829 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-11-03 03:49:52,840 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-11-03 03:49:52,840 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1505 samples
+2026-11-03 03:49:52,840 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-11-03 03:49:52,840 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-11-03 03:49:52,840 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-11-03 03:49:52,840 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-11-03 03:49:52,840 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-11-03 03:49:52,840 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-11-03 03:49:52,841 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-11-03 03:49:52,841 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-11-03 03:49:52,841 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-11-03 03:49:52,841 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-11-03 03:49:52,841 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 3225 samples
+2026-11-03 03:49:52,841 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 645 samples
+2026-11-03 03:49:52,841 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 215 samples
+2026-11-03 03:49:52,842 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 215 samples produced in 74ms on channel 0
+2026-11-03 03:49:52,842 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-11-03 03:49:52,899 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-11-03 03:49:52,899 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-11-03 03:49:52,899 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-11-03 03:49:52,905 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-11-03 03:49:52,906 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\berke\Desktop\jmeter agent\runs\20261103-034850-quickpizza-pizza-api-performance-test\report\statistics.json
+2026-11-03 03:49:52,937 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-11-03 03:49:52,939 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\berke\Desktop\jmeter agent\runs\20261103-034850-quickpizza-pizza-api-performance-test\report
+2026-11-03 03:49:53,027 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\berke\Desktop\jmeter agent\runs\20261103-034850-quickpizza-pizza-api-performance-test\report, creating folder structure
+2026-11-03 03:49:53,030 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\berke\Desktop\jmeter agent\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\berke\Desktop\jmeter agent\runs\20261103-034850-quickpizza-pizza-api-performance-test\report', got message: C:\Users\berke\Desktop\jmeter agent\runs\20261103-034850-quickpizza-pizza-api-performance-test\report, found non empty folder with following content [C:\Users\berke\Desktop\jmeter agent\runs\20261103-034850-quickpizza-pizza-api-performance-test\report\statistics.json], will be ignored
+2026-11-03 03:49:53,315 INFO o.a.j.JMeter: Dashboard generated

@@ -1,0 +1,73 @@
+{
+  "name": "interaktif deneme",
+  "verdict": "PASS",
+  "load": {
+    "users": 3,
+    "ramp_up_s": 1,
+    "duration_s": 5,
+    "loops": null
+  },
+  "total": {
+    "samples": 587,
+    "errors": 0,
+    "error_pct": 0.0,
+    "avg_ms": 23.6,
+    "min_ms": 1.0,
+    "max_ms": 80.0,
+    "p50_ms": 37.0,
+    "p90_ms": 47.0,
+    "p95_ms": 49.0,
+    "p99_ms": 68.4,
+    "rps": 117.75,
+    "received_kb_s": 1686.58
+  },
+  "threshold_checks": [
+    {
+      "check": "max_error_pct",
+      "limit": 1.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "check": "p95_ms",
+      "limit": 500.0,
+      "actual": 49.0,
+      "passed": true
+    }
+  ],
+  "per_request": {
+    "02 POST 127.0.0.1/x": {
+      "samples": 292,
+      "errors": 0,
+      "error_pct": 0.0,
+      "avg_ms": 1.6,
+      "min_ms": 1.0,
+      "max_ms": 10.0,
+      "p50_ms": 2.0,
+      "p90_ms": 2.0,
+      "p95_ms": 2.0,
+      "p99_ms": 6.1,
+      "rps": 59.92,
+      "received_kb_s": 32.48
+    },
+    "home": {
+      "samples": 295,
+      "errors": 0,
+      "error_pct": 0.0,
+      "avg_ms": 45.4,
+      "min_ms": 36.0,
+      "max_ms": 80.0,
+      "p50_ms": 44.0,
+      "p90_ms": 49.0,
+      "p95_ms": 54.0,
+      "p99_ms": 73.1,
+      "rps": 59.18,
+      "received_kb_s": 1654.83
+    }
+  },
+  "run_id": "20261031-234012-interaktif-deneme",
+  "status": "completed",
+  "elapsed_s": 8.4,
+  "run_dir": "C:\\Users\\berke\\Desktop\\jmeter agent\\runs\\20261031-234012-interaktif-deneme",
+  "report_html": "C:\\Users\\berke\\Desktop\\jmeter agent\\runs\\20261031-234012-interaktif-deneme\\report\\index.html"
+}

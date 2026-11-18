@@ -1,0 +1,59 @@
+{
+  "name": "quickpizza.grafana.com load test",
+  "verdict": "PASS",
+  "load": {
+    "users": 1,
+    "ramp_up_s": 0,
+    "duration_s": 30,
+    "loops": null
+  },
+  "total": {
+    "samples": 23,
+    "errors": 0,
+    "error_pct": 0.0,
+    "avg_ms": 280.6,
+    "min_ms": 165.0,
+    "max_ms": 823.0,
+    "p50_ms": 243.0,
+    "p90_ms": 376.4,
+    "p95_ms": 737.6,
+    "p99_ms": 823.0,
+    "rps": 0.8,
+    "received_kb_s": 0.89
+  },
+  "threshold_checks": [
+    {
+      "check": "max_error_pct",
+      "limit": 1.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "check": "p95_ms",
+      "limit": 1500.0,
+      "actual": 737.6,
+      "passed": true
+    }
+  ],
+  "per_request": {
+    "POST /api/pizza": {
+      "samples": 23,
+      "errors": 0,
+      "error_pct": 0.0,
+      "avg_ms": 280.6,
+      "min_ms": 165.0,
+      "max_ms": 823.0,
+      "p50_ms": 243.0,
+      "p90_ms": 376.4,
+      "p95_ms": 737.6,
+      "p99_ms": 823.0,
+      "rps": 0.8,
+      "received_kb_s": 0.89
+    }
+  },
+  "run_id": "20261102-152300-quickpizza-grafana-com-load-test",
+  "status": "completed",
+  "elapsed_s": 32.9,
+  "run_dir": "C:\\Users\\berke\\Desktop\\jmeter agent\\runs\\20261102-152300-quickpizza-grafana-com-load-test",
+  "report_html": "C:\\Users\\berke\\Desktop\\jmeter agent\\runs\\20261102-152300-quickpizza-grafana-com-load-test\\report\\index.html"
+}

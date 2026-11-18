@@ -1,0 +1,16 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using C:\Users\berke\Desktop\jmeter agent\runs\20261102-152953-quickpizza-pizza-api-empty-excludes\plan.jmx
+Starting standalone test @ 2026 Nov 2 15:29:54 TRT (1793622594223)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      6 in 00:00:06 =    1.0/s Avg:   487 Min:   168 Max:  1070 Err:     0 (0.00%) Active: 3 Started: 3 Finished: 0
+summary +    115 in 00:00:30 =    3.8/s Avg:   279 Min:   150 Max:   709 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+summary =    121 in 00:00:36 =    3.4/s Avg:   289 Min:   150 Max:  1070 Err:     0 (0.00%)
+summary +     93 in 00:00:24 =    3.8/s Avg:   301 Min:   158 Max:   670 Err:     0 (0.00%) Active: 0 Started: 5 Finished: 5
+summary =    214 in 00:01:00 =    3.6/s Avg:   294 Min:   150 Max:  1070 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Nov 2 15:30:54 TRT (1793622654504)
+... end of run
+

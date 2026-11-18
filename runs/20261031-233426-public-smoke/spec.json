@@ -1,0 +1,47 @@
+{
+  "name": "public smoke",
+  "url": null,
+  "method": "GET",
+  "requests": [
+    {
+      "url": "https://quickpizza.grafana.com/",
+      "method": "GET",
+      "label": null,
+      "headers": {},
+      "body": null,
+      "expected_status": null
+    },
+    {
+      "url": "https://blazedemo.com/reserve.php",
+      "method": "GET",
+      "label": null,
+      "headers": {},
+      "body": null,
+      "expected_status": null
+    },
+    {
+      "url": "https://dummyjson.com/products?limit=5",
+      "method": "GET",
+      "label": null,
+      "headers": {},
+      "body": null,
+      "expected_status": null
+    }
+  ],
+  "users": 2,
+  "ramp_up": 2,
+  "duration": 10,
+  "loops": null,
+  "think_time_ms": 1000,
+  "target_rps": null,
+  "timeout_ms": 30000,
+  "headers": {},
+  "expected_status": null,
+  "thresholds": {
+    "max_error_pct": 1.0,
+    "p95_ms": null,
+    "p99_ms": null,
+    "avg_ms": null,
+    "min_rps": null
+  }
+}

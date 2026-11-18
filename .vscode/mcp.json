@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "jmeter": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "jmeter_agent.mcp_server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "JMETER_AGENT_MAX_USERS": "500",
+        "JMETER_AGENT_MAX_DURATION": "1800"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "jmeter": {
+      "command": "python",
+      "args": ["-m", "jmeter_agent.mcp_server"],
+      "env": {
+        "JMETER_AGENT_MAX_USERS": "500",
+        "JMETER_AGENT_MAX_DURATION": "1800"
+      }
+    }
+  }
+}
